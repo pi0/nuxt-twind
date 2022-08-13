@@ -1,5 +1,5 @@
 import { extract, install } from 'twind'
-import twindConfig from '@@/twind.config'
+import twindConfig from '~~/twind.config'
 
 // Based on https://github.com/tw-in-js/twind/blob/next/packages/gatsby-plugin/src/gatsby-ssr.ts
 

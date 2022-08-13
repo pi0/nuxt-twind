@@ -1,6 +1,6 @@
-import { setup } from 'twind';
-import twindConfig from '@@/twind.config';
+import { setup } from 'twind'
+import twindConfig from '~~/twind.config'
 
-setup(twindConfig);
+setup(twindConfig)
 
-export default defineNuxtPlugin(() => {});
+export default defineNuxtPlugin(() => {})
