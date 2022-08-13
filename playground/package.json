@@ -9,6 +9,6 @@
   "devDependencies": {
     "@twind/preset-tailwind": "^1.0.0-next.38",
     "nuxt": "^3.0.0-rc.8",
-    "nuxt-twind": "^0.1.5"
+    "nuxt-twind": "^0.1.4"
   }
 }
