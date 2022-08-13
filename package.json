@@ -1,7 +1,7 @@
 {
   "name": "nuxt-twind",
-  "description": "Integrate Nuxt with Twind, The smallest, fastest, most feature complete tailwind-in-js solution in existence!",
   "version": "0.1.0",
+  "description": "Integrate Nuxt with Twind, The smallest, fastest, most feature complete tailwind-in-js solution in existence!",
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -19,7 +19,9 @@
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
     "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
-    "prepack": "nuxt-module-build"
+    "prepack": "nuxt-module-build",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish",
+    "test": "true"
   },
   "dependencies": {
     "@nuxt/kit": "^3.0.0-rc.8",
@@ -30,6 +32,7 @@
     "@nuxtjs/eslint-config-typescript": "latest",
     "@twind/preset-tailwind": "^1.0.0-next.38",
     "eslint": "latest",
-    "nuxt": "^3.0.0-rc.8"
+    "nuxt": "^3.0.0-rc.8",
+    "standard-version": "^9.5.0"
   }
 }
