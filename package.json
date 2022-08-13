@@ -20,8 +20,9 @@
     "dev:build": "nuxi build playground",
     "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
     "prepack": "nuxt-module-build",
+    "lint": "eslint --ext .ts,.vue,.js",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish",
-    "test": "true"
+    "test": "lint"
   },
   "dependencies": {
     "@nuxt/kit": "^3.0.0-rc.8",
@@ -30,9 +31,9 @@
   },
   "devDependencies": {
     "@nuxt/module-builder": "latest",
-    "@nuxtjs/eslint-config-typescript": "latest",
+    "@nuxtjs/eslint-config-typescript": "^10.0.0",
     "@twind/preset-tailwind": "^1.0.0-next.38",
-    "eslint": "latest",
+    "eslint": "^8.21.0",
     "nuxt": "^3.0.0-rc.8",
     "standard-version": "^9.5.0"
   }
