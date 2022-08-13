@@ -1,6 +1,6 @@
 {
   "name": "nuxt-twind",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Integrate Nuxt with Twind, The smallest, fastest, most feature complete tailwind-in-js solution in existence!",
   "license": "MIT",
   "type": "module",
