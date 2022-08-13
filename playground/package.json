@@ -8,6 +8,6 @@
   },
   "devDependencies": {
     "nuxt": "^3.0.0-rc.8",
-    "nuxt-twind": "latest"
+    "nuxt-twind": "^0.1.2"
   }
 }

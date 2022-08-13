@@ -5,6 +5,9 @@
 >  **Warning**
 > 🧪  This module was a quick prototype to try twind integration with Nuxt and not well tested.
 
+
+**Online playground:** [stackblitz](https://stackblitz.com/fork/github/pi0/nuxt-twind/tree/main/playground)
+
 ## Features
 
 - ⚡️ **No build step:** Get all the benefits of Tailwind without the need for PostCSS, configuration, purging, or autoprefixing.
