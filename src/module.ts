@@ -24,6 +24,7 @@ export default defineNuxtModule<ModuleOptions>({
       ],
       externals: {
         inline: [
+          resolver.resolve('./runtime'),
           'twind',
           '@twind/preset-tailwind'
         ]
