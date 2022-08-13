@@ -11,11 +11,9 @@
 ## Features
 
 - ⚡️ **No build step:** Get all the benefits of Tailwind without the need for PostCSS, configuration, purging, or autoprefixing.
-- Works with twind 1.x (next)
 - 🚀 **SSR Transforms:** Fast class transformation and [Optimizations](https://twind.style/docs/grouping-syntax)
 - 😎 **One low fixed cost:** Twind ships the compiler, not the CSS. This means unlimited styles and variants for one low fixed cost of ~4.5kB.
 - 🚗 **Client HMR support:** Fast reloads on client-side
-
 
 ## Installation
 
