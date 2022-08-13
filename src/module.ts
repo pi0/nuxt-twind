@@ -1,4 +1,5 @@
 import { defineNuxtModule, addPlugin, createResolver } from '@nuxt/kit'
+import { defu } from 'defu'
 
 export interface ModuleOptions {
 }
@@ -17,7 +18,16 @@ export default defineNuxtModule<ModuleOptions>({
 
     addPlugin(resolver.resolve('./runtime/twind.client'))
 
-    nuxt.options.nitro.plugins = nuxt.options.nitro.plugins || []
-    nuxt.options.nitro.plugins.push(resolver.resolve('./runtime/twind.nitro'))
+    nuxt.options.nitro = defu(nuxt.options.nitro, {
+      plugins: [
+        resolver.resolve('./runtime/twind.nitro')
+      ],
+      externals: {
+        inline: [
+          'twind',
+          '@twind/preset-tailwind'
+        ]
+      }
+    })
   }
 })
