@@ -3,7 +3,7 @@ import { defineNitroPlugin } from '#imports'
 
 import twindConfig from '~~/twind.config'
 
-install(twindConfig, process.env.NODE_ENV == 'production')
+install(twindConfig, process.env.NODE_ENV === 'production')
 
 export default defineNitroPlugin((nitroApp) => {
   nitroApp.hooks.hook('render:html', (html, { event }) => {
