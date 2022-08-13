@@ -6,7 +6,10 @@ export interface ModuleOptions {
 export default defineNuxtModule<ModuleOptions>({
   meta: {
     name: 'twind',
-    configKey: 'twind'
+    configKey: 'twind',
+    compatibility: {
+      nuxt: '^3.0.0-rc.8'
+    }
   },
   setup (_options, nuxt) {
     const resolver = createResolver(import.meta.url)
