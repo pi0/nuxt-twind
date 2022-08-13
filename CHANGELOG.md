@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/pi0/nuxt-twind/compare/v0.1.4...v0.1.5) (2022-08-13)
+
+
+### Bug Fixes
+
+* add implicit imports ([e48b66f](https://github.com/pi0/nuxt-twind/commit/e48b66fc608ed044703476362327260089f9c321))
+
 ### [0.1.4](https://github.com/pi0/nuxt-twind/compare/v0.1.3...v0.1.4) (2022-08-13)
 
 
