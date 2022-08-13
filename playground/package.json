@@ -1,12 +1,13 @@
 {
   "private": true,
   "scripts": {
-    "dev": "nuxt dev",
     "build": "nuxt build",
+    "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview"
   },
   "devDependencies": {
+    "@twind/preset-tailwind": "^1.0.0-next.38",
     "nuxt": "^3.0.0-rc.8",
     "nuxt-twind": "^0.1.2"
   }
