@@ -1,16 +1,18 @@
 # Nuxt Twind Module
 
-> Use [Twind](https://twind.style/) with [Nuxt](https://v3.nuxtjs.org/)
+> Integrate [Nuxt](https://v3.nuxtjs.org/) with [Twind](https://twind.style/), The smallest, fastest, most feature complete tailwind-in-js solution in existence!
 
-
-> 🧪 **Note:**
-> This module was a quick prototype to try twind integration with Nuxt and not well tested.
+>  **Warning**
+> 🧪  This module was a quick prototype to try twind integration with Nuxt and not well tested.
 
 ## Features
 
+- ⚡️ **No build step:** Get all the benefits of Tailwind without the need for PostCSS, configuration, purging, or autoprefixing.
 - Works with twind 1.x (next)
-- Quick SSR class transformation using nitro hooks
-- Client HMR support
+- 🚀 **SSR Transforms:** Fast class transformation and [Optimizations](https://twind.style/docs/grouping-syntax)
+- 😎 **One low fixed cost:** Twind ships the compiler, not the CSS. This means unlimited styles and variants for one low fixed cost of ~4.5kB.
+- 🚗 **Client HMR support:** Fast reloads on client-side
+
 
 ## Installation
 
@@ -50,7 +52,23 @@ export default defineConfig({
 })
 ```
 
+Now you can use classes in app:
+
+```vue
+<template>
+  <div>
+    <h2 class="inline-block p-3 mb-4 text-2xl font-bold bg-yellow-300">
+      Hey there!
+    </h2>
+  </div>
+</template>
+```
+
 ## Development
 
 - Run `npm run dev:prepare` to generate type stubs.
 - Use `npm run dev` to start [playground](./playground) in development mode.
+
+## License
+
+MIT. Made with 💚
