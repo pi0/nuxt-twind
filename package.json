@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@nuxt/module-builder": "latest",
-    "@nuxtjs/eslint-config-typescript": "^10.0.0",
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "@twind/preset-tailwind": "^1.0.0-next.38",
     "eslint": "^8.21.0",
     "nuxt": "^3.0.0-rc.8",
