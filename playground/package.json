@@ -7,8 +7,8 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "@twind/preset-tailwind": "^1.0.0-next.38",
-    "nuxt": "^3.0.0-rc.8",
+    "@twind/preset-tailwind": "^1.1.4",
+    "nuxt": "^3.13.2",
     "nuxt-twind": "^0.1.5"
   }
 }
