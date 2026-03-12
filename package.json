@@ -25,7 +25,7 @@
     "test": "yarn lint"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.0.0-rc.8",
+    "@nuxt/kit": "^4.4.2",
     "defu": "^6.0.0",
     "twind": "^1.0.0-next.38"
   },
@@ -34,7 +34,7 @@
     "@nuxtjs/eslint-config-typescript": "^10.0.0",
     "@twind/preset-tailwind": "^1.0.0-next.38",
     "eslint": "^8.21.0",
-    "nuxt": "^3.0.0-rc.8",
+    "nuxt": "^4.4.2",
     "standard-version": "^9.5.0"
   }
 }
